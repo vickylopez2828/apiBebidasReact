@@ -1,4 +1,10 @@
 # Tecnologias utilizadas
+  - React
+  - React Router Dom
+  - TypeScript
+  - Zustand
+  - Zod
+  - Tailwindcss
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
