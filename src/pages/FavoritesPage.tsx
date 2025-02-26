@@ -5,7 +5,7 @@ import DrinkCard from "../components/DrinkCard"
 
 export default function FavoritesPage() {
     const favorites = useAppStore((state) => state.favorites)
-    const hasFavorites = useMemo(()=> favorites.length , [favorites])
+    const hasFavorites = useMemo(()=> !!favorites.length , [favorites])
     const clearFavorites = useAppStore((state) => state.clearFavorite)
   return (
     <>

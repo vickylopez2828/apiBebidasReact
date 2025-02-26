@@ -1,5 +1,5 @@
 import { StateCreator } from "zustand"
-import { FavoriteSliceType } from "./FavoriteSlice"
+import { FavoriteSliceType } from "./favoriteSlice"
 
 type Notification = {
     text: string

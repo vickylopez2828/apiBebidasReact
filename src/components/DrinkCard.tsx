@@ -1,5 +1,4 @@
 /* From Uiverse.io by Yaya12085 */ 
-import React from 'react'
 import { Drink } from '../types';
 import { useAppStore } from '../stores/useAppStore';
 
